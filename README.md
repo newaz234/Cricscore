@@ -1,0 +1,1 @@
+Cricket live score app. User can get score through api. Also there will a option to enjoy match that are not from api. To manage those matches there will be use of firebase database also
