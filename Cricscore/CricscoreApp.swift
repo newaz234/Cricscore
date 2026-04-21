@@ -1,17 +1,14 @@
-//
-//  CricscoreApp.swift
-//  Cricscore
-//
-//  Created by macos on 30/3/26.
-//
-
 import SwiftUI
+import FirebaseCore
 
 @main
 struct CricscoreApp: App {
+    init() {
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainContentView()
         }
     }
 }
